@@ -118,6 +118,7 @@ export default defineNuxtConfig({
   ],
   // ////////////////////////////////////////////////// [Module] @nuxtjs/algolia
   // ---------------------------------------------------------------------------
+  /*
   algolia: {
     disable: true,
     apiKey: process.env.ALGOLIA_API_KEY,
@@ -127,9 +128,10 @@ export default defineNuxtConfig({
       { path: Path.resolve(__dirname, 'content'), contentDirectoryName: 'content' }
     ]
   },
+  */
   // ////////////////////////////////////////////////// [Module] @nuxt/plausible
   // ---------------------------------------------------------------------------
-  /*
+  
   plausible: {
     include: true,
     domain: 'singularity.storage',
@@ -137,7 +139,7 @@ export default defineNuxtConfig({
     autoOutboundTracking: true
     
   },
-  */
+  
   // //////////////////////////////////////////////////// [Module] @nuxt/content
   // ---------------------------------------------------------------------------
   content: {

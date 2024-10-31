@@ -129,12 +129,15 @@ export default defineNuxtConfig({
   },
   // ////////////////////////////////////////////////// [Module] @nuxt/plausible
   // ---------------------------------------------------------------------------
+  /*
   plausible: {
     include: true,
     domain: 'singularity.storage',
     trackLocalhost: false,
     autoOutboundTracking: true
+    
   },
+  */
   // //////////////////////////////////////////////////// [Module] @nuxt/content
   // ---------------------------------------------------------------------------
   content: {

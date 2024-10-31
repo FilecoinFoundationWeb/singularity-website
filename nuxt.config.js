@@ -108,7 +108,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@/modules/eslint-nuxt3-globals',
     '@nuxtjs/eslint-module',
-    '@nuxtjs/algolia',
+    //'@nuxtjs/algolia',
     // '@/modules/zero', // required
     '@/modules/nuxt-module-plausible',
     '@nuxt/content',

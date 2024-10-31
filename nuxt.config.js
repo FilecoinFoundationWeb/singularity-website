@@ -109,7 +109,7 @@ export default defineNuxtConfig({
     '@/modules/eslint-nuxt3-globals',
     '@nuxtjs/eslint-module',
     //'@nuxtjs/algolia',
-    '@/modules/zero', // required
+    //'@/modules/zero', // required
     '@/modules/nuxt-module-plausible',
     '@nuxt/content',
     '@nuxtjs/plausible', // https://github.com/nuxt-modules/plausible

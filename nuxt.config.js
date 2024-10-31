@@ -108,8 +108,8 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@/modules/eslint-nuxt3-globals',
     '@nuxtjs/eslint-module',
-    //'@nuxtjs/algolia',
-    //'@/modules/zero', // required
+    '@nuxtjs/algolia',
+    '@/modules/zero', // required
     '@/modules/nuxt-module-plausible',
     '@nuxt/content',
     '@nuxtjs/plausible', // https://github.com/nuxt-modules/plausible
@@ -118,17 +118,15 @@ export default defineNuxtConfig({
   ],
   // ////////////////////////////////////////////////// [Module] @nuxtjs/algolia
   // ---------------------------------------------------------------------------
-  /*
   algolia: {
     disable: true,
-    apiKey: process.env.ALGOLIA_API_KEY,
-    applicationId: process.env.ALGOLIA_APPLICATION_ID,
-    indexName: `${process.env.ALGOLIA_INDEX_ID}__${env}`,
+    apiKey: process.env.ALGOLIA_API_KEY || 'fake_api_key',
+    applicationId: process.env.ALGOLIA_APPLICATION_ID || 'fake_app_id',
+    indexName: `${process.env.ALGOLIA_INDEX_ID || 'fake_index_id'}__${env}`,
     sources: [
       { path: Path.resolve(__dirname, 'content'), contentDirectoryName: 'content' }
     ]
   },
-  */
   // ////////////////////////////////////////////////// [Module] @nuxt/plausible
   // ---------------------------------------------------------------------------
   
